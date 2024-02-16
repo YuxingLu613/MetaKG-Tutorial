@@ -3,13 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to MetaKG's documentation!
+MetaKG
 ==================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   about
+   installation
+   MetaKG construction
+   MetaKGE training
+   usage
+   api
+   faq
+   contributing
+   license
 
 
 Indices and tables
