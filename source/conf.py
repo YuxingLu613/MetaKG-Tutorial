@@ -13,21 +13,12 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-extensions = [
-    'sphinx_rtd_theme',
-    'recommonmark',
-    'sphinx_markdown_tables'
-]
-import sphinx_rtd_theme
-html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+extensions = ["myst_parser"]
 
-# # from recommonmark.parser import CommonMarkParser
-# source_parsers = {
-#     '.md': CommonMarkParser,
-# }
-source_suffix = ['.rst', '.md']
-
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 # -- Project information -----------------------------------------------------
 
 project = 'MetaKG'
