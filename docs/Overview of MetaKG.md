@@ -1,7 +1,6 @@
 # Overview of MetaKG
 
 
-
 ## What is MetaKG
 
 MetaKG is the abbreviation of Metabolite-centric Knowledge Graph. It is a knowledge graph that is centered around metabolites and their associations with other entities such as genes, proteins, diseases, and pathways. MetaKG is a multi-modal knowledge graph that integrates information from various sources including databases, literature, and ontologies. MetaKG is designed to be a comprehensive and up-to-date resource for metabolite-centric knowledge.
