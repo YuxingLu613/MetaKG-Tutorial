@@ -1,7 +1,5 @@
 # Welcome to MetaKG Tutorial
 
-> [!TIP]
->
 > For MetaKG website visit [metakg.xyz](http://www.metakg.xyz). 
 >
 > For MetaKG code visit [github.com/YuxingLu613/metakg](https://github.com/YuxingLu613/metakg). 
@@ -13,25 +11,26 @@
 > For other resources please visit [metakg.xyz/resource](http://www.metakg.xyz/resource).
 >
 > Or you can contact [yxlu0613@gmail.com](mailto:yxlu0613@gmail.com) for more help ^_^.
+>
 
 
 
 ## Table of Contents
 
-* [Overview of MetaKG](./about.md)
-* [Quick Start](./starter.md)
-* [Installation](./install.md)
-* [Construction](./construction.md)
-* [Query and Search](./querysearch.md)
-* [Biological Analytics](./analysis.md)
-* [Visualization](./visualization.md)
-* [Representation Training](./training.md)
-* [MetaKGE](./kge.md)
-* [Meta2Vec](./meta2vec.md)
-* [KG Completion](./predict.md)
-* [Hypothesis Generation](./hypothesis.md)
-* [How to update with LLM](./llm.md)
-* [Open Resources](./openresources.md)
+* [Overview of MetaKG](./Overview of MetaKG.md)
+* [Quick Start](./Quick Start.md)
+* [Installation](./Installation.md)
+* [Construction](./Construction.md)
+* [Query and Search](./Query and Search.md)
+* [Biological Analytics](./Biological Analytics.md)
+* [Visualization](./Visualization.md)
+* [Representation Training](./Representation Training.md)
+* [MetaKGE](./MetaKGE.md)
+* [Meta2Vec](./Meta2Vec.md)
+* [KG Completion](./KG Completion.md)
+* [Hypothesis Generation](./Hypothesis Generation.md)
+* [How to update with LLM](./How to update with LLM.md)
+* [Open Resources](./Open Resources.md)
 
 
 
