@@ -1,8 +1,12 @@
-# What is MetaKG
+# Overview of MetaKG
+
+
+
+## What is MetaKG
 
 MetaKG is the abbreviation of Metabolite-centric Knowledge Graph. It is a knowledge graph that is centered around metabolites and their associations with other entities such as genes, proteins, diseases, and pathways. MetaKG is a multi-modal knowledge graph that integrates information from various sources including databases, literature, and ontologies. MetaKG is designed to be a comprehensive and up-to-date resource for metabolite-centric knowledge.
 
-# What is the source of MetaKG
+## What is the source of MetaKG
 
 MetaKG is constructed by integrating information from various sources including databases, literature, and ontologies. The sources of MetaKG include but are not limited to the following:
 - **HMDB** (The Human Metabolome Database) - HMDB is a comprehensive, web-accessible metabolite database. It contains detailed information about small molecule metabolites found in the human body.
@@ -21,7 +25,7 @@ MetaKG is constructed by integrating information from various sources including 
 
 We use the data from these sources to construct MetaKG. We also use the literature to extract some information about metabolite associations from scientific articles both manually and automatically. HMDB, KEGG and SMPDB are the primary sources of metabolite information in MetaKG. We use the data from these sources to construct the MetaKG.
 
-# What is the purpose of MetaKG
+## What is the purpose of MetaKG
 
 MetaKG stands as an indispensable bastion of metabolite-centric knowledge, meticulously curated and continuously updated to serve as the go-to wellspring for researchers, developers, and data scientists alike. Its robust architecture empowers users to delve deep into the intricate realm of metabolomics, facilitating a spectrum of endeavors, including but not limited to:
 
@@ -37,6 +41,6 @@ MetaKG stands as an indispensable bastion of metabolite-centric knowledge, metic
 
 With MetaKG as their compass, researchers, developers, and data scientists embark on a journey of discovery, armed with the insights and tools needed to navigate the intricate landscape of metabolite-centric knowledge.
 
-# How can you use MetaKG
+## How can you use MetaKG
 
 MetaKG is available as a website and a python package. You can use the website to search for metabolites and their associations with other entities. You can also use the python package to access the data programmatically. The python package provides an easy-to-use API to access the data in MetaKG. You can use the python package to construct knowledge graphs, train machine learning models, and perform statistical analysis on metabolite-centric data.
