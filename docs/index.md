@@ -1,18 +1,22 @@
-# Welcome to MkDocs
+# Welcome to MetaKG Tutorial
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+For MetaKG website visit [metakg.xyz](http://www.metakg.xyz). 
 
-## Commands
+For MetaKG code visit [github.com/YuxingLu613/metakg](https://github.com/YuxingLu613/metakg). 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+For MetaKG Python package visit [pypi.org/project/metakg/](https://pypi.org/project/metakg/).
 
-## Project layout
+For Meta2Vec Python package visit [pypi.org/project/meta2vec/](https://pypi.org/project/meta2vec/).
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        about.md
-        
+For other resources please visit [metakg.xyz/resource](http://www.metakg.xyz/resource).
+
+Or you can contact yxlu0613@gmail.com for more help ^_^.
+
+
+
+## Table of Contents
+
+* [What is MetaKG](./about.md)
+
+  
+
