@@ -4,13 +4,13 @@ nav:
 - Overview of MetaKG.md
 - Quick Start.md
 - Installation.md
-- Construction.md
+- KG Construction.md
 - Query and Search.md
 - Biological Analysis.md
 - Visualization.md
 - Representation Training.md
 - MetaKGE.md
-- Meta2Vec.md
+- Meta2Vec Embedding.md
 - KG Completion.md
 - Hypothesis Generation.md
 - How to update with LLM.md
