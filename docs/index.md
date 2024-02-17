@@ -38,7 +38,6 @@ In essence, MetaKG empowers researchers, developers, and data scientists to navi
 * [KG Construction](./KG Construction.md)
 * [Query and Search](./Query and Search.md)
 * [Biological Analysis](./Biological Analysis.md)
-* [Visualization](./Visualization.md)
 * [Representation Training](./Representation Training.md)
 * [MetaKGE](./MetaKGE.md)
 * [Meta2Vec Embedding](./Meta2Vec Embedding.md)
