@@ -1,8 +1,6 @@
 # Welcome to MetaKG Tutorial
 
-MetaKG is the **first** metabolite-centric knowledge graph to date that serves as a comprehensive repository of metabolite-centric information. At its core, MetaKG is a sophisticated knowledge graph meticulously constructed to illuminate the intricate relationships between metabolites and a myriad of biological entities such as genes, proteins, diseases, and pathways.
-
-Here's a concise introduction to MetaKG:
+MetaKG is the **first** metabolite-centric knowledge graph to date that serves as a comprehensive repository of metabolite-centric information. At its core, MetaKG is a sophisticated knowledge graph meticulously constructed to illuminate the intricate relationships between metabolites and a myriad of biological entities such as genes, proteins, diseases, and pathways. Here's a concise introduction to MetaKG:
 
 **Metabolite-Centric Focus**: MetaKG revolves around metabolites, which are small molecules crucial for various biological processes. By placing metabolites at the center of its framework, MetaKG provides a holistic view of their interactions and associations within biological systems.
 
@@ -39,7 +37,7 @@ In essence, MetaKG empowers researchers, developers, and data scientists to navi
 * [Installation](./Installation.md)
 * [Construction](./Construction.md)
 * [Query and Search](./Query and Search.md)
-* [Biological Analytics](./Biological Analytics.md)
+* [Biological Analysis](./Biological Analysis.md)
 * [Visualization](./Visualization.md)
 * [Representation Training](./Representation Training.md)
 * [MetaKGE](./MetaKGE.md)
