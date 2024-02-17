@@ -1,2 +1,18 @@
 site_name: MetaKG
+nav:
+- index.md
+- Overview of MetaKG.md
+- Quick Start.md
+- Installation.md
+- Construction.md
+- Query and Search.md
+- Biological Analytics.md
+- Visualization.md
+- Representation Training.md
+- MetaKGE.md
+- Meta2Vec.md
+- KG Completion.md
+- Hypothesis Generation.md
+- How to update with LLM.md
+- Open Resources.md
 theme: readthedocs
