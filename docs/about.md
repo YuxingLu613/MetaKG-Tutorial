@@ -6,13 +6,19 @@ MetaKG is the abbreviation of Metabolite-centric Knowledge Graph. It is a knowle
 
 MetaKG is constructed by integrating information from various sources including databases, literature, and ontologies. The sources of MetaKG include but are not limited to the following:
 - **HMDB** (The Human Metabolome Database) - HMDB is a comprehensive, web-accessible metabolite database. It contains detailed information about small molecule metabolites found in the human body.
-- **KEGG** (Kyoto Encyclopedia of Genes and Genomes) - KEGG is a collection of databases dealing with genomes, biological pathways, diseases, drugs, and chemical substances.
-- **SMPDB** (Small Molecule Pathway Database) - SMPDB is an interactive, visual database containing more than 600 small molecule pathways found in humans.
-- **ChEBI** (Chemical Entities of Biological Interest) - ChEBI is a database and ontology of chemical entities of biological interest.
-- **PubChem** - PubChem is a database of chemical molecules and their activities against biological assays.
-- **FooDB** - FooDB is the world's largest and most comprehensive resource on food constituents, chemistry, and biology.
-- **UniProt** - UniProt is a freely accessible database of protein sequence and functional information.
   
+- **KEGG** (Kyoto Encyclopedia of Genes and Genomes) - KEGG is a collection of databases dealing with genomes, biological pathways, diseases, drugs, and chemical substances.
+  
+- **SMPDB** (Small Molecule Pathway Database) - SMPDB is an interactive, visual database containing more than 600 small molecule pathways found in humans.
+  
+- **ChEBI** (Chemical Entities of Biological Interest) - ChEBI is a database and ontology of chemical entities of biological interest.
+  
+- **PubChem** - PubChem is a database of chemical molecules and their activities against biological assays.
+  
+- **FooDB** - FooDB is the world's largest and most comprehensive resource on food constituents, chemistry, and biology.
+  
+- **UniProt** - UniProt is a freely accessible database of protein sequence and functional information.
+
 We use the data from these sources to construct MetaKG. We also use the literature to extract some information about metabolite associations from scientific articles both manually and automatically. HMDB, KEGG and SMPDB are the primary sources of metabolite information in MetaKG. We use the data from these sources to construct the MetaKG.
 
 # What is the purpose of MetaKG
