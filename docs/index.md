@@ -32,19 +32,29 @@ In essence, MetaKG empowers researchers, developers, and data scientists to navi
 
 ## Table of Contents
 
+* [Home](./index.md)
 * [Overview of MetaKG](./Overview of MetaKG.md)
-* [Quick Start](./Quick Start.md)
-* [Installation](./Installation.md)
-* [KG Construction](./KG Construction.md)
-* [Query and Search](./Query and Search.md)
-* [Biological Analysis](./Biological Analysis.md)
-* [Representation Training](./Representation Training.md)
-* [MetaKGE](./MetaKGE.md)
-* [Meta2Vec Embedding](./Meta2Vec Embedding.md)
-* [KG Completion](./KG Completion.md)
-* [Hypothesis Generation](./Hypothesis Generation.md)
-* [How to update with LLM](./How to update with LLM.md)
-* [Open Resources](./Open Resources.md)
+#### MetaKG Python Package
+* [Quick Start](MetaKG Python Package/Quick Start.md)
+* [Installation](MetaKG Python Package/Installation.md)
+* [Construction](MetaKG Python Package/KG Construction.md)
+* [Query and Search](MetaKG Python Package/Query and Search.md)
+* [Biological Analysis](MetaKG Python Package/Biological Analysis.md)
+* [Representation Training](MetaKG Python Package/Representation Training.md)
+* [MetaKGE](MetaKG Python Package/MetaKGE.md)
+* [Meta2Vec Embedding](MetaKG Python Package/Meta2Vec Embedding.md)
+* [KG Completion](MetaKG Python Package/KG Completion.md)
+* [Hypothesis Generation](MetaKG Python Package/Hypothesis Generation.md)
+* [Updation with LLM](MetaKG Python Package/How to update with LLM.md)
+#### MetaKG Website
+* [Introduction](MetaKG Website/Introduction.md)
+* [Graph Visualization](MetaKG Website/Graph Visualization.md)
+* [Database Browse](MetaKG Website/Database Browse.md)
+* [Search](MetaKG Website/Search.md)
+* [Inference](MetaKG Website/Inference.md)
+* [Downloadable Resources](MetaKG Website/Resources.md)
+#### Open Resources
+* [Open Resources](Open Resources/Open Resources.md)
 
 
 
