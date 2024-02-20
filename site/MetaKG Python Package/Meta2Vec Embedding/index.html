@@ -65,6 +65,22 @@
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">Meta2Vec Embedding</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#getting-started-with-meta2vec">Getting Started with Meta2Vec</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#load-pre-trained-embeddings">Load Pre-trained Embeddings</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#calculate-distance-between-two-metabolites">Calculate Distance between Two Metabolites</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#find-most-similar-metabolites">Find Most Similar Metabolites</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#visualize-embeddings">Visualize Embeddings</a>
+    </li>
+        </ul>
+    </li>
     </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../KG%20Completion/">KG Completion</a>
@@ -119,6 +135,51 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="meta2vec-embedding">Meta2Vec Embedding</h1>
+<p>Meta2Vec, as part of the MetaKG ecosystem, is an innovative tool designed to allocate embeddings for metabolites within the MetaKG knowledge graph. This tool applies the principles of representation learning to the field of metabolomics, aiming to capture the complex relationships and characteristics of metabolites in a form that can be easily utilized for computational analysis and machine learning applications.</p>
+<h2 id="getting-started-with-meta2vec">Getting Started with Meta2Vec</h2>
+<p>We have developed a seperate Python package for <code>meta2vec</code> for instant use without building MetaKG.</p>
+<p><code>meta2vec</code> is a Python package for metabolite embedding, which allows for the representation of metabolites in a vector space.</p>
+<p><code>meta2vec</code> package contains three modules:</p>
+<ul>
+<li><code>distance</code>: provides functions for calculating the similarity distance between two metabolites using their embeddings.</li>
+<li><code>utils</code>: provides helper functions for working with HMDB (Human Metabolome Database) dataset.</li>
+<li><code>visualize</code>: provides functions for visualizing the embeddings using UMAP.</li>
+</ul>
+<p>An example.ipynb is provides.</p>
+<h2 id="installation">Installation</h2>
+<p><code>meta2vec</code> package can be installed via <code>pip</code>:</p>
+<pre><code class="language-bash">pip install meta2vec
+</code></pre>
+<h2 id="usage">Usage</h2>
+<p>Here is a brief overview of how to use <code>meta2vec</code> package:</p>
+<h3 id="load-pre-trained-embeddings">Load Pre-trained Embeddings</h3>
+<pre><code class="language-python">from meta2vec import from_pretrained
+
+# Load the TransE pre-trained embeddings
+hmdb_embeddings = from_pretrained(model_type=&quot;TransE&quot;, embedding_dir=&quot;embedding&quot;)
+</code></pre>
+<p>The above code loads the pre-trained HMDB embeddings from the <code>embedding</code> directory. If the embeddings are not already present in the directory, the function will download them from the GitHub repository.</p>
+<h3 id="calculate-distance-between-two-metabolites">Calculate Distance between Two Metabolites</h3>
+<pre><code class="language-python">from meta2vec import hmdb_id_cosine_distance, hmdb_id_euclidean_distance
+
+# Calculate the cosine distance between two HMDB IDs
+cosine_distance = hmdb_id_cosine_distance(hmdb_embeddings, &quot;HMDB0000001&quot;, &quot;HMDB0000002&quot;)
+
+# Calculate the Euclidean distance between two HMDB IDs
+euclidean_distance = hmdb_id_euclidean_distance(hmdb_embeddings, &quot;HMDB0000001&quot;, &quot;HMDB0000002&quot;)
+</code></pre>
+<h3 id="find-most-similar-metabolites">Find Most Similar Metabolites</h3>
+<pre><code class="language-python">from meta2vec import most_similar
+
+# Find the most similar HMDB IDs to a given HMDB ID
+similar_compounds = most_similar(hmdb_embeddings, &quot;HMDB0000001&quot;)
+</code></pre>
+<h3 id="visualize-embeddings">Visualize Embeddings</h3>
+<pre><code>from meta2vec import visualize_umap
+
+# Visualize the embeddings using UMAP
+visualize_umap(hmdb_embeddings)
+</code></pre>
               
             </div>
           </div><footer>
