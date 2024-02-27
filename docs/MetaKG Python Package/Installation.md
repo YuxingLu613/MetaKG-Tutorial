@@ -55,7 +55,19 @@ import metakg
 print(metakg.__version__)
 ```
 
-This command should display the version number of MetaKG without errors.
+This command should display the installed version of the MetaKG package, indicating a successful installation.
+
+### Troubleshooting
+
+If you encounter any issues during the installation process, consider the following troubleshooting steps:
+
+- Ensure you have a stable internet connection for downloading the package.
+- Verify that your Python and pip versions meet the requirements.
+- If you receive a permission error, try installing the package with elevated privileges using `sudo pip install metakg` or use a virtual environment.
+
+### Conclusion
+
+Following these steps should allow you to successfully install the MetaKG Python package. This package is your gateway to exploring and analyzing the rich dataset of metabolite-centric information within the MetaKG knowledge graph. For further assistance, refer to the package documentation or contact the support team.
 
 ### Next Steps
 
